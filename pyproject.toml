@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "replica-rzne-simulation"
+version = "0.1.0"
+description = "Replica-interference and R-ZNE simulation code"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "qutip", "matplotlib"]
+
+[tool.setuptools.packages.find]
+include = ["replica_sim*"]

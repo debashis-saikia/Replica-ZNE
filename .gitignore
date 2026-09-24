@@ -1,6 +1,8 @@
 __pycache__/
 *.pyc
 .pytest_cache/
+.env
+.env.*
 results/data/*.npy
 results/figures/*.png
 results/figures/*.pdf
